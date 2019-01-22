@@ -4,8 +4,8 @@ function findMatching(collection, targetName) {
     return string1.toUpperCase() === string2.toUpperCase();
   }
 
-  collection.filter(item => checkName(item, targetName))
-  
+  collection.filter(item => checkName(item, targetName));
+
 }
 
 function fuzzyMatch() {
