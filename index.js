@@ -11,7 +11,7 @@ function findMatching(collection, targetName) {
 }
 
 function fuzzyMatch(collection, text) {
-
+  const textLength = text.length
 }
 
 function matchName() {
