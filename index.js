@@ -8,8 +8,6 @@ function findMatching(collection, targetName) {
 
   return collection.filter(item => item.toUpperCase() === targetName.toUpperCase());
 
-  // return result;
-
 }
 
 function fuzzyMatch(collection, text) {
