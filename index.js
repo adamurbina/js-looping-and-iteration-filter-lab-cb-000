@@ -6,7 +6,7 @@ function findMatching(collection, targetName) {
   //
   // const result = collection.filter(item => compareStrings(item, targetName));
 
-  return result = collection.filter(item => item.toUpperCase() === targetName.toUpperCase());
+  return collection.filter(item => item.toUpperCase() === targetName.toUpperCase());
 
   // return result;
 
