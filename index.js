@@ -13,7 +13,7 @@ function findMatching(collection, targetName) {
 function fuzzyMatch(collection, text) {
   const textLength = text.length;
 
-  return collection.filter(item => text === item(0,textLength));
+  return collection.filter(item => text === item.slice(0,textLength));
 }
 
 function matchName() {
