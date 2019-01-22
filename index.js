@@ -10,8 +10,8 @@ function findMatching(collection, targetName) {
 
 }
 
-function fuzzyMatch() {
-
+function fuzzyMatch(collection, text) {
+  
 }
 
 function matchName() {
