@@ -6,12 +6,14 @@ function findMatching(collection, targetName) {
 
   const result = collection.filter(item => compareStrings(item, targetName));
 
+  const result = collection.filter(item => item.toUpperCase() === targetName.toUpperCase());
+
   return result;
 
 }
 
 function fuzzyMatch(collection, text) {
-  
+
 }
 
 function matchName() {
