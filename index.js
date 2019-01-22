@@ -15,6 +15,6 @@ function fuzzyMatch(collection, text) {
   return collection.filter(item => text === item.slice(0,text.length));
 }
 
-function matchName() {
-
+function matchName(collection, targetName) {
+  return collection.filter(item => item.name === targetName);
 }
