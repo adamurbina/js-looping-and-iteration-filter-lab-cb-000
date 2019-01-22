@@ -4,7 +4,9 @@ function findMatching(collection, targetName) {
     return string1.toUpperCase() === string2.toUpperCase();
   }
 
-  collection.filter(item => compareStrings(item, targetName));
+  const result = collection.filter(item => compareStrings(item, targetName));
+
+  return result;
 
 }
 
