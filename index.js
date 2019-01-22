@@ -1,5 +1,5 @@
 function findMatching(collection, name) {
-  collection.filter(colName == name)
+  collection.filter(cont colName == name)
 }
 
 function fuzzyMatch() {
